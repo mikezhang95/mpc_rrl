@@ -35,22 +35,21 @@ Predictive Control for Faster Adaption in Autonomous Driving".
 └── video_ppo.py: script to render videos of the simulation process
 ```
 
+ 
 
-## Execution Instructions 
+## Installation            
 
-### 1. Installation            
-
-#### Conda Environment 
+### Conda Environment 
 ```bash
 conda create -n carla python=3.8
 pip install -r requirements.txt
 ```
 
-#### CARLA Simulator
+### CARLA Simulator
 Download `carla-0.9.12 ` [here](https://github.com/carla-simulator/carla/releases) and put it into folder `$HOME/dl-tools`. 
 
 
-### 2. Instructions
+##  Instructions
 
 ### Training
 
