@@ -5,7 +5,7 @@ Predictive Control for Faster Adaption in Autonomous Driving".
 
 ## Supplementary Material
 
-<a href="appendix.pdf" target="_blank">PDF.</a>
+![appendix.pdf](appendix.pdf)
 
 ## Code Structure
 
