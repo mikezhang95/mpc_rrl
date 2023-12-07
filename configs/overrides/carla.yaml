@@ -1,0 +1,26 @@
+# @package _group_
+env: 
+  name: "carla"
+  class: "envs.carla.carla_env.CarlaEnv"
+  params: 
+    is_render: False
+    random_seed: ${seed}
+    task_name: "straight"
+    port: 2000
+    domain_random: False
+
+max_episode_steps: 100
+
+# training params 
+num_random_steps: 2e3
+num_train_steps: 1e5
+eval_frequency: 4e3
+num_eval_episodes: 10
+
+# algorithm params
+critic_lr: 1e-4
+actor_lr: 1e-4
+alpha_lr: 1e-4
+
+# replay buffer
+replay_buffer_capacity: ${num_train_steps}
