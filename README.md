@@ -5,7 +5,7 @@ Predictive Control for Faster Adaption in Autonomous Driving".
 
 ## Supplementary Material
 
-![appendix.pdf](https://github.com/mikezhang95/mpc_rrl/blob/main/appendix.pdf)
+![appendix](appendix.jpeg)
 
 ## Code Structure
 
